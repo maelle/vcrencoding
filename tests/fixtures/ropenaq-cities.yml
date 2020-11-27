@@ -3,7 +3,7 @@ http_interactions:
     method: get
     uri: https://api.openaq.org/v1/cities?limit=10000&page=1
     body:
-      encoding: ''
+      encoding: UTF-8
       string: ''
     headers:
       User-Agent: libcurl/7.68.0 r-curl/4.3 crul/1.0.0
@@ -28,12 +28,12 @@ http_interactions:
       content-encoding: gzip
       last-modified: Fri, 27 Nov 2020 09:08:03 GMT
       cache-control: no-cache
-      date: Fri, 27 Nov 2020 09:14:39 GMT
+      date: Fri, 27 Nov 2020 09:28:18 GMT
       vary: origin
       x-cache: RefreshHit from cloudfront
-      via: 1.1 a7bbe4a11b741d7b36ce930a7be4fa36.cloudfront.net (CloudFront)
+      via: 1.1 fbfe4f7df377f4abad1b2d1f2570400f.cloudfront.net (CloudFront)
       x-amz-cf-pop: CDG50-C2
-      x-amz-cf-id: 4FhruXeHBREkR6I64lkWPLXmhL3JGb1eXu_5rbpszCzYHHn47PhEzQ==
+      x-amz-cf-id: kc89XWjI4yeSCHLZ2fwmAc8uvIYfw-AOSPLWgAU5n99ZlcEbFzNpJQ==
     body:
       encoding: UTF-8
       file: no
@@ -865,5 +865,5 @@ http_interactions:
         Chi Minh City","city":"Ho Chi Minh City","count":66403,"locations":1},{"country":"VN","name":"N/A","city":"N/A","count":4665,"locations":2},{"country":"XK","name":"Drenas","city":"Drenas","count":96926,"locations":1},{"country":"XK","name":"Gjilan","city":"Gjilan","count":95731,"locations":1},{"country":"XK","name":"Hani
         i Elezit","city":"Hani i Elezit","count":99170,"locations":1},{"country":"XK","name":"Mitrovice","city":"Mitrovice","count":92259,"locations":1},{"country":"XK","name":"Peje","city":"Peje","count":72899,"locations":1},{"country":"XK","name":"Prishtine","city":"Prishtine","count":205337,"locations":2},{"country":"XK","name":"Pristina","city":"Pristina","count":63417,"locations":1},{"country":"XK","name":"Prizren","city":"Prizren","count":98821,"locations":1},{"country":"ZA","name":"Richards
         Bay","city":"Richards Bay","count":239159,"locations":3}]}'
-  recorded_at: 2020-11-27 09:14:39 GMT
+  recorded_at: 2020-11-27 09:28:18 GMT
   recorded_with: vcr/0.5.5.91, webmockr/0.7.0
