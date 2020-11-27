@@ -16,6 +16,7 @@ RoxygenNote: 7.1.1.9000
 URL: https://github.com/maelle/vcrencoding
 BugReports: https://github.com/maelle/vcrencoding/issues
 Suggests: 
+    crul,
     ropenaq,
     testthat (>= 3.0.0),
     vcr
