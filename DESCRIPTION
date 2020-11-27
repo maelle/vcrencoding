@@ -1,5 +1,5 @@
-Package: vcrencoding try
-Title: What the Package Does (One Line, Title Case)
+Package: vcrencoding
+Title: What the Package Does (One Line, Title Case) try
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Maëlle",
