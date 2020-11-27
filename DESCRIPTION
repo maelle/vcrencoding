@@ -15,3 +15,7 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1.9000
 URL: https://github.com/maelle/vcrencoding
 BugReports: https://github.com/maelle/vcrencoding/issues
+Suggests: 
+    testthat (>= 3.0.0),
+    vcr
+Config/testthat/edition: 3
