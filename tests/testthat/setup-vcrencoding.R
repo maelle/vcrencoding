@@ -4,3 +4,4 @@ invisible(vcr::vcr_configure(
   serialize_with = "yaml"
 ))
 vcr::check_cassette_names()
+Sys.setenv(VCR_VERBOSE_ERRORS=TRUE)
