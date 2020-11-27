@@ -22,4 +22,4 @@ Suggests:
     vcr (>= 0.5.5.91)
 Config/testthat/edition: 3
 Remotes:  
-    ropensci/vcr
+    ropensci/vcr@encoding
