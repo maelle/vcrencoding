@@ -19,5 +19,8 @@ Suggests:
     crul,
     ropenaq,
     testthat (>= 3.0.0),
-    vcr
+    
+    vcr (>= 0.5.5.91)
 Config/testthat/edition: 3
+Remotes:  
+    ropensci/vcr
